@@ -1,0 +1,14 @@
+---
+- hosts: dashboard
+
+  tasks:
+    - name: Install software
+      ansible.builtin.apt:
+        update_cache: yes
+        name:
+          - chromium-browser
+          - unclutter
+          - podman
+        state: latest
+      become: yes
+

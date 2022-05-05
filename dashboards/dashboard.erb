@@ -1,0 +1,37 @@
+<% content_for :title do %>My super sweet dashboard<% end %>
+    <div class="gridster" style="height:1075px; overflow:hidden;">
+      <ul>
+        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+          <div data-view="TwelveHourClock" style="background-color:#664400;"></div>
+          <i class="fa fa-clock-o icon-background" style="margin-top: 50px;"></i>
+        </li>
+        <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+          <div data-id="open_weather_widget" data-view="OpenWeatherWidget" style="background-color:#56282d;"></div>
+          <i class="fa fa-map-marker icon-background" style="margin-top: 50px;"></i>
+        </li>
+        <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+          <div data-id="whos_home_widget" data-view="WhosHomeWidget" style="background-color:#285655;"></div>
+          <i class="fa fa-home icon-background" style="margin-top: 50px;"></i>
+        </li>
+  <!--
+        <li data-row="1" data-col="4" data-sizex="3" data-sizey="1" ><!--style="height:342px; overflow:hidden;"-->
+  <!--        <div data-id="to_do_list" data-view="ToDoList" data-title="Messages" style="background-color:#445560;"></div>
+          <i class="fa fa-pencil icon-background" style="margin-top: 50px;"></i>
+        </li>
+  -->
+  <!--
+        <li data-row="2" data-col="4" data-sizex="3" data-sizey="2">
+          <div data-id="house_calendar" data-view="HouseCalendar" style="background-color:#333333;"></div>
+          <i class="fa fa-calendar-check-o icon-background" style="margin-top: 200px;"></i>
+        </li>
+  -->
+        <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
+          <div data-id="cta_bus_widget" data-view="CTABusWidget" style="background-color:#544343;"></div>
+          <i class="fa fa-bus icon-background" style="margin-top: 50px;"></i>
+        </li>
+        <li data-row="3" data-col="1" data-sizex="3" data-sizey="1">
+          <div data-id="cta_train_widget" data-view="CTATrainWidget" style="background-color:#284056;"></div>
+          <i class="fa fa-subway icon-background" style="margin-top: 50px;"></i>
+        </li>
+      </ul>
+    </div>
