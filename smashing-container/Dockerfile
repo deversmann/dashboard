@@ -1,4 +1,4 @@
-FROM ruby:2.7.6-alpine3.15
+FROM arm32v7/ruby:2.7.6-alpine3.15
 
 RUN apk add --update --no-cache build-base openssl-dev tzdata nodejs && \
     gem update --system && \

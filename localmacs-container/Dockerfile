@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM arm32v7/httpd:2.4
 
 RUN apt-get update && \
 	apt-get install -y nmap cron && \
